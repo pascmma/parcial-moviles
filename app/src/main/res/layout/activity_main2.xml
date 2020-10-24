@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kokun"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/id_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/id_name2"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toStartOf="@+id/id_score2"
+        app:layout_constraintHorizontal_bias="0.233"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/id_score2"
+        android:layout_width="108dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="44dp"
+        android:ems="10"
+        android:hint="@string/id_score2"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/boton21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:onClick="boton21"
+        app:layout_constraintEnd_toStartOf="@+id/boton22"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_name2"
+        app:srcCompat="@drawable/andri" />
+
+    <ImageButton
+        android:id="@+id/boton22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="boton22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_score2"
+        app:srcCompat="@drawable/andri" />
+
+    <ImageButton
+        android:id="@+id/boton23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="36dp"
+        android:onClick="boton23"
+        app:layout_constraintEnd_toStartOf="@+id/boton24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton21"
+        app:srcCompat="@drawable/andri" />
+
+    <ImageButton
+        android:id="@+id/boton24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:onClick="boton24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton22"
+        app:srcCompat="@drawable/andri" />
+
+    <ImageButton
+        android:id="@+id/boton25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="boton25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/boton26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton23"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/andri" />
+
+    <ImageButton
+        android:id="@+id/boton26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="boton26"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton24"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/andri" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

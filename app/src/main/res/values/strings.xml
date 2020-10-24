@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lememoria</string>
+    <string name="id_name">Actividad1</string>
+    <string name="id_name2">Actividad2</string>
+    <string name="id_score">0</string>
+    <string name="id_score2">0</string>
+</resources>
